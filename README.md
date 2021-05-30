@@ -42,6 +42,7 @@ All variables you can change are located in the config.py file. Most of them are
 | fileFormat   | The file format which info is collected from, by default it's '\.mp4'                                                                                      |
 | FULL_SCAN    | If set to True it will scan all the files in a directory first before parsing them, if set to False it will scan on the go.                                |
 | TMDB_METADATA_UPDATE_INTERVAL | The seconds it will wait until it updates the saved metadata from the config.json.                                                        |
+| SCAN_DIR | The directory the code will scan in order to index the episodes.                                                        |
 
 ## Naming Scheme
 
